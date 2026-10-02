@@ -15,7 +15,7 @@ export function Contacts({ language }: { language: Language }) {
         <SectionIntro eyebrow={copy.eyebrow} title={copy.title} />
         <div className="contacts__list" data-reveal>
           <a href={contacts.phoneHref}><span>{copy.phone}</span><strong>{contacts.phoneDisplay}</strong><i aria-hidden="true">↗</i></a>
-          <a href={contacts.telegramChannel} target="_blank" rel="noreferrer"><span>Telegram · {copy.channel}</span><strong>@rahmatov170</strong><i aria-hidden="true">↗</i></a>
+          <a href={contacts.telegramChannel} target="_blank" rel="noreferrer"><span>Telegram · {copy.channel}</span><strong>170CARS</strong><i aria-hidden="true">↗</i></a>
           <a href={contacts.telegramProfile} target="_blank" rel="noreferrer"><span>Telegram · {copy.master}</span><strong>@hasan_rahmatov</strong><i aria-hidden="true">↗</i></a>
         </div>
       </div>
